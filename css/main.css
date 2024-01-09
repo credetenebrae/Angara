@@ -1,0 +1,236 @@
+@import url('./reset.css');
+* {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header a:hover {
+    color: rgb(161, 161, 161);
+    transition: all 0.3s;
+}
+
+.main {
+    background-color: #f4f5f7;
+    height:fit-content
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background-color: #fff;
+    height: 100px;
+    padding-top: 13px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70px;
+    width: 1300px;
+
+    font-weight: 500;
+    border: rgba(94, 94, 94, 0.255) solid 2px;
+    border-right: none;
+    border-left: none;
+}
+
+.row a {
+    color: #000;
+    font-size: 28px;
+    display: flex;
+}
+
+.row li {
+    margin-top: 14px;
+}
+
+.row li:first-child {
+    margin-left: 40px;
+}
+
+.row li:last-child {
+    margin-right: 40px;
+}
+
+.logo {
+    height: 48px;
+    width: 48px;
+    padding-bottom: 14px;
+    padding-right: 6px;
+}
+
+.logo img {
+    display: block;
+}
+
+/* =========================== MAIN ================================= */
+
+.slideshow {
+    height: 620px;
+    position: relative;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.slideshow img {
+    position: absolute;
+    height: 460px;
+    width: 1100px;
+    border-radius: 20px;
+    border: 3px solid #000;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slideshow img.active {
+  opacity: 1;
+}
+
+.floating__button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  z-index: 2;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/* ========================== ABOUT US ============================= */
+
+.paragraph {
+    margin-left: 24px;
+    border-bottom: 2px solid black;
+}
+
+.paragraph h2 {
+    margin-left: 14px;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.about__us_content h3{
+    font-size: 32px;
+
+    margin-top: 10px;
+    margin-left: 36px;
+}
+
+.about__us_content h4{
+    font-size: 28px;
+
+    margin-top: 15px;
+    margin-left: 36px;
+}
+
+.about__us_container {
+    margin-top: 25px;
+    margin-left: 36px;
+    display: flex;
+}
+
+.about__us_container img {
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.about__us_container h3{
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.about__us_list {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.about__us_list li{
+    margin-left: 50px;
+    list-style-type: disc;
+}
+
+.about__us_list h2 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+/* =================== OUR PROJECTS ========================== */
+
+.paragraph {
+    margin-bottom: 15px;
+}
+
+.projects__wrapper {
+    width: 1100px;
+    height: 1100px;
+}
+
+.projects__span {
+    margin-top: 45px;
+}
+.projects__object h2{
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+.swiper {
+  width: 1100px;
+  height: 460px;
+}
+
+.swiper {
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+/* ==================== FOOTER ======================== */
+
+.footer {
+    background-color: aqua;
+    background-image: url(../src/img/footer\ bg.jpg);
+    color: #fff;
+}
+
+.footer__wrapper {
+    padding-top: 15px;
+}
+
+.footer__row {
+    padding-top: 35px;
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.footer__row li {
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer__row li a {
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: rgb(161, 161, 161);
+    transition: all 0.3s;
+}
