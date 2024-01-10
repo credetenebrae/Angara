@@ -22,12 +22,18 @@
     padding: 0 25px 0 25px;
 }
 
+@media (max-width: 320px) {
+    .wrapper {
+        width: 320px;
+    }
+}
 header {
     background-color: #fff;
     height: 100px;
     padding-top: 13px;
 
 }
+
 
 .row {
     display: flex;
@@ -40,7 +46,6 @@ header {
     border-right: none;
     border-left: none;
 }
-
 
 .row a {
     color: #000;
@@ -59,6 +64,7 @@ header {
 .row li:last-child {
     margin-right: 40px;
 }
+
 
 .logo {
     height: 48px;
@@ -92,19 +98,19 @@ header {
 }
 
 .slideshow img.active {
-  opacity: 1;
+    opacity: 1;
 }
 
 .floating__button {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 60px;
-  z-index: 2;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    z-index: 2;
 }
 
 @media (max-width: 1310px) {
@@ -132,14 +138,14 @@ h2 {
 
 .about__us_content h3{
     font-size: 32px;
-
+    
     margin-top: 10px;
     margin-left: 36px;
 }
 
 .about__us_content h4{
     font-size: 28px;
-
+    
     margin-top: 15px;
     margin-left: 36px;
 }
@@ -201,8 +207,8 @@ h2 {
 }
 
 .swiper {
-  width: 1000px;
-  height: 440px;
+    width: 1000px;
+    height: 440px;
 }
 
 .swiper {
@@ -223,6 +229,7 @@ h2 {
     width: 1000px;
     padding-top: 15px;
     width: 1000px;
+    background-color: red;
 }
 
 .footer__row {
@@ -246,4 +253,80 @@ h2 {
 .footer a:hover {
     color: rgb(161, 161, 161);
     transition: all 0.3s;
+}
+
+@media (min-width: 320px) {
+    .row a {
+        font-size: 18px;
+    }
+    .logo {
+        display: none;
+    }
+    .row {
+        flex-wrap: wrap;
+        height: 10px;
+        border: none;
+    }
+    .row h3 {
+        margin-right: 38px;
+    }
+    .row li:first-child {
+    margin-left: 10px;
+    }
+    .header {
+        border-bottom: 1px solid black;
+    }
+    .wrapper {
+        padding: 4px 4px 4px 4px;
+    }
+    .slideshow {
+        margin: 4px;
+        max-height: 170px;
+        padding-top: 0;
+    }
+    .slideshow img {
+        max-width: 320px;
+        min-width: 320px;
+        max-height: 170px;
+        border-radius: 0;
+        border: none;
+    }
+    .paragraph {
+    margin-left: 4px;
+    border-bottom: 2px solid black;
+    max-width: 320px;
+    }
+    .paragraph h2 {
+    margin-left: 4px;
+    font-weight: 500;
+    font-size: 30px;
+    }
+    .about__span {
+        display: none;
+    }
+    .about__us_content h4 {
+        font-size: 18px;
+        margin-left: 4px;
+    }
+    .about__us_container {
+        margin-left: 4px;
+        display: block;
+        border-bottom: 1px solid black;
+    }
+    .about__us_container img {
+        margin-left: 4px;
+        height: 200px;
+    }
+    .textbox h3{
+        margin: 4px;
+    }
+    .about__us_maintext {
+        display: none;
+    }
+    .about__us_list li{
+        margin-left: 16px;
+    }
+    .about__us_list h2 {
+        font-size: 18px;
+    }
 }
