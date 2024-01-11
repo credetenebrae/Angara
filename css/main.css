@@ -116,7 +116,7 @@ header {
 }
 
 .projects__title {
-    width: 50vw;
+    width: 60vw;
     border-bottom: 2px solid black;
     margin-top: 55px;
 }
@@ -178,15 +178,25 @@ header {
     white-space: nowrap;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
+    .main__wrapper {
+        padding-top: 0;
+    }
     .about__us_span h2 {
         font-size: 24px;
     }
     .about__us_text h2 {
         font-size: 18px;
     }
+    .about__us_content h3 {
+    font-size: 18px;
+    }
     .textbox h3{
         font-weight: 700;
+    }
+    .projects__title h2{
+        font-size: 28px;
+        text-wrap: nowrap;
     }
     .footer__content a, .footer__content h3 {
         font-size: 14px;
