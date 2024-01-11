@@ -102,6 +102,9 @@ header {
     margin-top: 10px;
 }
 
+.projects {
+    padding-bottom: 1px;
+}
 
 .projects__wrapper {
     width: 80vw;
@@ -279,6 +282,9 @@ header {
 
 @media (max-width: 1310px) {
     .floating__button {
-        bottom: 70px;
+        width: 40px;
+        height: 40px;
+        bottom: 10px;
+        right: 10px;
     }
 }
