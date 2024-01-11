@@ -255,4 +255,10 @@ header {
     .footer__content a, .footer__content h3 {
         font-size: 14px;
     }
+    .footer__container {
+    margin-left :0px;
+    }
+    .footer__content {
+        width: 350px;
+    }
 }
