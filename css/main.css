@@ -247,7 +247,7 @@ header {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
     .textbox h3{
         font-weight: 700;
     }
