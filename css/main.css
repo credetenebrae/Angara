@@ -58,30 +58,16 @@ header {
     transition: opacity 0.5s ease-in-out;
 }
 
-@media (max-width: 1000px) {
-    .slideshow img {
-    position: absolute;
-    height: 400px;
-    width: 80vw;
-    border-radius: 15px;
-    border: 3px solid #000;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    }
-    .slideshow {
-        height: 400px;
-    }
-}
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     .slideshow img {
-    position: absolute;
-    height: 300px;
-    width: 80vw;
-    border-radius: 15px;
-    border: 3px solid #000;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+        position: absolute;
+        height: 300px;
+        width: 80vw;
+        border-radius: 15px;
+        border: 3px solid #000;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
     }
     .slideshow {
         height: 300px;
@@ -90,13 +76,13 @@ header {
 
 @media (max-width: 700px) {
     .slideshow img {
-    position: absolute;
-    height: 200px;
-    width: 80vw;
-    border-radius: 15px;
-    border: 3px solid #000;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+        position: absolute;
+        height: 200px;
+        width: 80vw;
+        border-radius: 15px;
+        border: 3px solid #000;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
     }
     .slideshow {
         height: 200px;
@@ -105,18 +91,18 @@ header {
 
 @media (max-width: 480px) {
     .slideshow img {
-    position: absolute;
-    height: 150px;
-    width: 80vw;
-    border-radius: 15px;
-    border: 3px solid #000;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+        position: absolute;
+        height: 150px;
+        width: 80vw;
+        border-radius: 15px;
+        border: 3px solid #000;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
     }
     .slideshow {
         height: 150px;
     }
-}
+} */
 
 .slideshow img.active {
     opacity: 1;
@@ -251,14 +237,35 @@ header {
     .textbox h3{
         font-weight: 700;
     }
-
+    
     .footer__content a, .footer__content h3 {
         font-size: 14px;
     }
     .footer__container {
-    margin-left :0px;
+        margin-left :0px;
     }
     .footer__content {
         width: 350px;
+    }
+    .footer__container h2 {
+        font-size: 22px;
+    }
+    .about__us_content img {
+        height: 200px;
+    }
+    @media (max-width: 1000px) {
+        .slideshow img {
+        position: absolute;
+        height: 200px;
+        width: 99vw;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        }
+        .slideshow {
+            height: 400px;
+        }
     }
 }
