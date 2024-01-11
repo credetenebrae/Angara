@@ -34,7 +34,7 @@ header {
 
 .main__wrapper {
     background-color: #f4f5f7;
-    width: 99vw;
+    width: 100vw;
     height: fit-content;
     padding-top: 40px;
 }
@@ -187,7 +187,7 @@ header {
 }
 
 .footer__wrapper {
-    width: 99vw;
+    width: 100vw;
     height: fit-content;
     background-image: url(../src/img/footer\ bg.jpg);
     background-size: 2000px 150px;
@@ -237,7 +237,6 @@ header {
     .textbox h3{
         font-weight: 700;
     }
-    
     .footer__content a, .footer__content h3 {
         font-size: 14px;
     }
@@ -256,8 +255,8 @@ header {
     @media (max-width: 1000px) {
         .slideshow img {
         position: absolute;
-        height: 200px;
-        width: 90vw;
+        height: 300px;
+        width: 100vw;
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
         border-left: none;
