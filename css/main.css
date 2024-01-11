@@ -257,7 +257,7 @@ header {
         .slideshow img {
         position: absolute;
         height: 200px;
-        width: 99vw;
+        width: 90vw;
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
         border-left: none;
