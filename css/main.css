@@ -58,52 +58,6 @@ header {
     transition: opacity 0.5s ease-in-out;
 }
 
-
-/* @media (max-width: 800px) {
-    .slideshow img {
-        position: absolute;
-        height: 300px;
-        width: 80vw;
-        border-radius: 15px;
-        border: 3px solid #000;
-        opacity: 0;
-        transition: opacity 0.5s ease-in-out;
-    }
-    .slideshow {
-        height: 300px;
-    }
-}
-
-@media (max-width: 700px) {
-    .slideshow img {
-        position: absolute;
-        height: 200px;
-        width: 80vw;
-        border-radius: 15px;
-        border: 3px solid #000;
-        opacity: 0;
-        transition: opacity 0.5s ease-in-out;
-    }
-    .slideshow {
-        height: 200px;
-    }
-}
-
-@media (max-width: 480px) {
-    .slideshow img {
-        position: absolute;
-        height: 150px;
-        width: 80vw;
-        border-radius: 15px;
-        border: 3px solid #000;
-        opacity: 0;
-        transition: opacity 0.5s ease-in-out;
-    }
-    .slideshow {
-        height: 150px;
-    }
-} */
-
 .slideshow img.active {
     opacity: 1;
 }
@@ -231,9 +185,6 @@ header {
     .about__us_text h2 {
         font-size: 18px;
     }
-}
-
-@media (max-width: 1000px) {
     .textbox h3{
         font-weight: 700;
     }
@@ -252,19 +203,54 @@ header {
     .about__us_content img {
         height: 200px;
     }
-    @media (max-width: 1000px) {
-        .slideshow img {
-        position: absolute;
+
+    .slideshow img {
+    position: absolute;
+    height: 400px;
+    width: 100vw;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    }
+    .slideshow {
+        height: 400px;
+    }
+}
+
+@media (max-width: 800px) {
+    .slideshow img {
+        height: 350px;
+    }
+    .slideshow {
+        height: 350px;
+    }
+}
+
+@media (max-width: 650px) {
+    .slideshow img {
+        height: 300px;
+    }
+    .slideshow {
+        height: 300px;
+    }
+}
+
+@media (max-width: 550px) {
+    .slideshow img {
+        height: 250px;
+    }
+    .slideshow {
+        height: 250px;
+    }
+}
+
+@media (max-width: 450px) {
+    .slideshow img {
         height: 200px;
-        width: 100vw;
-        opacity: 0;
-        transition: opacity 0.5s ease-in-out;
-        border-left: none;
-        border-right: none;
-        border-radius: 0;
-        }
-        .slideshow {
-            height: 400px;
-        }
+    }
+    .slideshow {
+        height: 200px;
     }
 }
