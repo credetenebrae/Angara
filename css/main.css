@@ -220,7 +220,7 @@ header {
     .slideshow img {
     position: absolute;
     height: 400px;
-    width: 100vw;
+    width: 99.90vw;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     border-radius: 0;
