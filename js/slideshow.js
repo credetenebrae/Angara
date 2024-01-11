@@ -18,7 +18,14 @@ function nextSlide() {
 
 setInterval(nextSlide, 5000); // Интервал времени между каждым слайдом
 
-function openImage(img) {
+
+function openPopup(img) {
     var imageUrl = img.getAttribute('src');
-    window.open(imageUrl, '_blank', 'fullscreen=yes');
+    var popupImage = document.getElementById('popupImage');
+    popupImage.setAttribute('src', imageUrl);
+    document.getElementById('popup').style.display = 'block';
+}
+
+function closePopup() {
+    document.getElementById('popup').style.display = 'none';
 }
