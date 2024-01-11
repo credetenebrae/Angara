@@ -116,7 +116,7 @@ header {
 }
 
 .projects__title {
-    width: 60vw;
+    width: 70vw;
     border-bottom: 2px solid black;
     margin-top: 55px;
 }
@@ -262,5 +262,23 @@ header {
     }
     .slideshow {
         height: 200px;
+    }
+}
+
+.floating__button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    z-index: 2;
+}
+
+@media (max-width: 1310px) {
+    .floating__button {
+        bottom: 70px;
     }
 }
