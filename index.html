@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Ангара</title>
+</head>
+<body>
+    <header class="header">
+        <ul class="row">
+            <li><a href="#footer">Ангара</a></li>
+            <li><a href="#aboutUs">Преимущества</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#footer">Контакты</a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <div class="main__wrapper">
+            <div class="slideshow">
+                <img class="active" src="./src/img/1.jpg" alt="bg">
+                <img src="./src/img/2.jpg" alt="bg">
+                <img src="./src/img/3.jpg" alt="bg">
+            </div>
+            <div class="about__us" id="aboutUs">
+                <div class="about__us_span">
+                    <h2>Дома из клееного профилированного бруса</h2>
+                </div>
+                <div class="about__us_wrapper">
+                <div class="about__us_text">
+                    <h2>Материалы и преимущества</h2>
+                    <h2>Мы закупаем древесину у изготовителей качественного клееного бруса «Сиблюкс» следующих размеров :</h2>
+                    <div class="about__us_content">
+                        <img src="./src/img/sizes.jpg" alt="measurements">
+                        <div class="textbox">
+                        <h3>Размеры сечения:<br>
+                        185 х 204 мм, 185 х 244 мм.</h3>
+                        <h3>Породы древесины:<br>
+                        сосна, кедр, лиственница.</h3>
+                        <h3>Длина:<br>до 12 метров.
+                        </div>
+                    </div>
+                    <h2>Дом из клееного бруса - это долговечное и эстетичное сооружение с превосходными эксплуатационными свойствами. Такие дома сохраняют тепло внутри в любое время года и безопасны для человеческого организма.</h2>
+                    <ul class="about__us_list">
+                        <li><h2>• дома из клееного бруса возводятся оперативно, т.к. их строительство предполагает соединение уже готовых частей;</h2></li>
+                        <li><h2>• практическое отсутствие усадки (не более 1,5%) т.к. клееный брус уже был высушен на производстве;</h2></li>
+                        <li><h2>• отсутствует необходимость выполнять отделку стен здания, т.к. брус сам по себе уже имеет безупречный эстетичный внешний вид.</h2></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="projects" id="projects">
+                    <div id="popup" onclick="closePopup()">
+                    <img id="popupImage" src="" alt="Popup Image">
+                    </div>
+                <div class="projects__wrapper">
+                    <div class="projects__title"><h2>Наши проекты</h2></div>
+                    <h3>Баня на природе с беседками. Табаган, Алматинская обл.</h3>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./src/img/objects/slider 1/slide1.jpg" alt="object-image" onclick="openPopup(this)">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/objects/slider 1/slide2.jpg" alt="object-image" onclick="openPopup(this)">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/objects/slider 1/slide3.jpg" alt="object-image" onclick="openPopup(this)">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/objects/slider 1/slide4.jpg" alt="object-image" onclick="openPopup(this)">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/objects/slider 1/slide5.jpg" alt="object-image" onclick="openPopup(this)">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/objects/slider 1/slide6.jpg" alt="object-image" onclick="openPopup(this)">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <h3>Дом на пруду, посёлок Панфилово, Алматинская обл.</h3>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./src/img/objects/slider 2/slide1.jpg" alt="object-image" onclick="openPopup(this)">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/objects/slider 2/slide2.jpg" alt="object-image" onclick="openPopup(this)">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./src/img/objects/slider 2/slide3.jpg" alt="object-image" onclick="openPopup(this)">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <a target="_blank" href="https://wa.me/+77018302156?text=Здравствуйте, я бы хотел поинтересоваться насчет строительства дома из клееной древесины.">
+                    <div class="floating__button">
+                        <img src="./src/img/whatsapp.svg" alt="WhatsApp">
+                    </div>
+            </a>
+        </div>
+    </main>
+    <footer class="footer" id="footer">
+    <div class="footer__wrapper">
+        <div class="footer__container">
+            <h2>Наши контакты</h2>
+            <div class="footer__content">
+                <h3>Офис<br> г. Конаев (Капшагай), микр.2, дом 13, офис 43</h3>
+                <a type="tel" href="tel:87018302156">8(701)830 21 56</a>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <script src="./js/slideshow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slideshowObjects.js"></script>
+</body>
+</html>
