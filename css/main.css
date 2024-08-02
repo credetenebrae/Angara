@@ -273,12 +273,15 @@ header {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    width: 10vw;
-    height: 10vw;
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
     z-index: 2;
+}
+
+.floating__button img {
+    width: 10vw;
+    height: 10vw;
 }
 
 @media (max-width: 1310px) {
