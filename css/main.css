@@ -284,6 +284,13 @@ header {
     height: 10vw;
 }
 
+@media (max-width: 1100px) {
+    .floating__button img {
+        width: 25vw;
+        height: 25vw;
+    }
+}
+
 #popup {
   display: none;
   position: fixed;
